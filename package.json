@@ -1,0 +1,10 @@
+{
+  "name": "InteriorConsultant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jean Carlos Piguave Alvarado <you@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w sass -o src/css"
+  }
+}
