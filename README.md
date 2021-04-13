@@ -18,7 +18,7 @@ Esta aplicación o sitio fue creada como una presentación a un desafío de <a h
 </p>
 
 <ul>
-<li><a href="extra-small-game.surge.sh"> ver demo </a></li>
-<li><a href="https://github.com/jean-carlos-19/Interior-Consultant"> ver solucion en github </a></li>
-<li><a href="https://devchallenges.io/solutions/NPUEWxYZCKMCyo0IVcvz"> ver solucion en Devchallenge </a></li>
+<li><a href="http://extra-small-game.surge.sh/" target="_blank"> ver demo </a></li>
+<li><a href="https://github.com/jean-carlos-19/Interior-Consultant" target="_blank"> ver solucion en github </a></li>
+<li><a href="https://devchallenges.io/solutions/NPUEWxYZCKMCyo0IVcvz" target="_blank"> ver solucion en Devchallenge </a></li>
 </ul>
