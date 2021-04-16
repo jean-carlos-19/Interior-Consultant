@@ -42,7 +42,7 @@
         <li><a href="https://piguavejc-interior-consultant.onrender.com/" target="_blank"> ver demo </a></li>
         <li><a href="https://github.com/jean-carlos-19/Interior-Consultant" target="_blank"> ver solucion en github </a></li>
         <li><a href="https://devchallenges.io/solutions/NPUEWxYZCKMCyo0IVcvz" target="_blank"> ver solucion en Devchallenge </a></li>   
-        <li><a href="https://www.figma.com/file/3cf83hHRBAGjG5EKPcG2bV"> ver diseños en figma </a></li>
+        <li><a href="https://www.figma.com/proto/3cf83hHRBAGjG5EKPcG2bV/interior-consultant-challenge?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1"> ver diseños en figma </a></li>
     </ul>
 </nav>
 </section>
