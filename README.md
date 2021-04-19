@@ -10,11 +10,11 @@
 </section>
 <nav>
     <ul>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-descripci%C3%B2n-general-">Descripciòn General</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-soluci%C3%B2n-">Soluciòn</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-construido-con-">Construido Con</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-caracteristicas-">Caracteristicas</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-contacto-">Contacto</a></li>    
+        <li><a href="https://github.com/jean-carlos-19/Interior-Consultant#-descripci%C3%B2n-general-">Descripciòn General</a></li>
+        <li><a href="https://github.com/jean-carlos-19/Interior-Consultant#-soluci%C3%B2n-">Soluciòn</a></li>
+        <li><a href="https://github.com/jean-carlos-19/Interior-Consultant#-construido-con-">Construido Con</a></li>
+        <li><a href="https://github.com/jean-carlos-19/Interior-Consultant#-caracteristicas-">Caracteristicas</a></li>
+        <li><a href="https://github.com/jean-carlos-19/Interior-Consultant#-contacto-">Contacto</a></li>    
     </ul>
 </nav>
 <section >
