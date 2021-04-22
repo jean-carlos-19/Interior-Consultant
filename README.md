@@ -64,6 +64,16 @@
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
     </p>
+    <p>
+      Desafío: Crea una página de inicio siguiendo el diseño. La página debe responder. No mire la solución existente. Cumplir con las historias de usuario a continuación:
+    </p>
+     <nav>.
+        <ul>
+            <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
+            <li>Historia de usuario: en un dispositivo móvil, puedo ver una navegación contraída</li>
+            <li>Historia de usuario: en el móvil, cuando selecciono el menú de hamburguesas, puedo ver una navegación </li>
+        </ul>
+    </nav>
 </section>
 <section >
      <section>
