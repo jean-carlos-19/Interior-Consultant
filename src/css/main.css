@@ -102,7 +102,8 @@ img {
   border: 1px solid #ffffff; }
 
 .encabezado #encabezado_icono_menu {
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  cursor: pointer; }
 
 @media screen and (min-width: 50rem) {
   #encabezado_icono_menu {
