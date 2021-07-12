@@ -31,11 +31,11 @@ img {
   0% {
     opacity: 0; }
   25% {
-    opacity: .25; }
+    opacity: 0.25; }
   50% {
-    opacity: .50; }
+    opacity: 0.5; }
   75% {
-    opacity: .75; }
+    opacity: 0.75; }
   100% {
     opacity: 1; } }
 
@@ -91,7 +91,7 @@ img {
     align-items: center; } }
 
 .encabezado .encabezado_titulo {
-  padding: .5rem .56rem .43rem;
+  padding: 0.5rem 0.56rem 0.43rem;
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 200;
@@ -124,7 +124,7 @@ img {
       .navegacion_escritorio .lista .item:first-child .enlace {
         border-bottom: 1px solid #ffffff;
         font-weight: bolder;
-        padding-bottom: .5rem; }
+        padding-bottom: 0.5rem; }
       .navegacion_escritorio .lista .item .enlace {
         font-family: Montserrat;
         font-style: normal;
@@ -138,7 +138,7 @@ img {
   padding: 1.37rem 1.24rem;
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
@@ -159,7 +159,7 @@ img {
       cursor: pointer;
       font-size: 1.32rem; }
   .menu_movil .lista {
-    height: calc(100vh -( (.75rem * 2) + 1.32rem));
+    height: calc(100vh - ((0.75rem * 2) + 1.32rem));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +169,7 @@ img {
     .menu_movil .lista .item:first-child .enlace {
       font-weight: bolder;
       border-bottom: 3px solid #ffffff;
-      padding-bottom: .5rem; }
+      padding-bottom: 0.5rem; }
     .menu_movil .lista .item .enlace {
       font-family: Montserrat;
       font-style: normal;
@@ -200,7 +200,7 @@ img {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.875rem;
+    font-size: 0.87rem;
     line-height: 1.06rem;
     color: #ffffff; }
   .bienvenido .bienvenido_enlace {
@@ -216,24 +216,20 @@ img {
     justify-content: center;
     align-items: center; }
   .bienvenido .bienvenido_enlace_icono {
-    margin-left: .93rem; }
+    margin-left: 0.93rem; }
 
 @media screen and (min-width: 37.5em) {
-  .bienvenido_parrafo {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+  .bienvenido > * + * {
+    margin-top: 2.5rem; }
+  .bienvenido .bienvenido_titulo {
+    font-size: 3rem;
+    line-height: 3.81rem; }
+  .bienvenido .bienvenido_parrafo {
     font-size: 1.5rem;
-    line-height: 1.8125rem;
-    color: #ffffff; }
-  .bienvenido_enlace {
-    margin-top: 1.5rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+    line-height: 1.81rem; }
+  .bienvenido .bienvenido_enlace {
     font-size: 1.5rem;
-    line-height: 1.8125rem;
-    color: #ffffff; } }
+    line-height: 1.8125rem; } }
 
 .tarjeta {
   width: 100%;
@@ -244,7 +240,7 @@ img {
     flex-basis: 65%; } }
 
 .informacion {
-  padding: .45rem .64rem 1.56rem;
+  padding: 0.45rem 0.64rem 1.56rem;
   width: 80%;
   position: relative;
   top: -5.12rem;
@@ -252,7 +248,7 @@ img {
   background: #181719;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .informacion > .informacion_figura + .informacion_subtitulo {
-    margin-top: .5rem; }
+    margin-top: 0.5rem; }
   .informacion .informacion_figura {
     display: flex;
     flex-direction: row;
@@ -269,7 +265,9 @@ img {
 @media screen and (min-width: 50rem) {
   .informacion {
     width: 40%;
-    right: -20%; } }
+    right: -20%; }
+    .informacion > .informacion_figura + .informacion_subtitulo {
+      margin-top: 1.87rem; } }
 
 .figura {
   width: 25%; }
@@ -281,7 +279,7 @@ img {
   width: 85%;
   margin-left: 0.8rem; }
   .descripcion > * + * {
-    margin-top: .36rem; }
+    margin-top: 0.36rem; }
   .descripcion .descripcion_titulo,
   .descripcion span {
     font-family: Montserrat;
@@ -298,6 +296,8 @@ img {
     color: #828282; }
 
 @media screen and (min-width: 37.5rem) {
+  .descripcion > * + * {
+    margin-top: 0.50rem; }
   .descripcion .descripcion_titulo {
     font-size: 0.875rem;
     line-height: 1.0625rem; }
@@ -309,8 +309,8 @@ img {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1.18rem .75rem;
-  animation: apareceSitio .8s ease-in  0s; }
+  padding: 1.18rem 0.75rem;
+  animation: apareceSitio 0.8s ease-in 0s; }
 
 @media screen and (min-width: 37.5em) {
   .contenedor {

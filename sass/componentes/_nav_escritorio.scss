@@ -6,7 +6,7 @@
     display: block;
     .lista {
       @include displa_flex(row, space-between, center);
-      & > .item + .item{
+      & > .item + .item {
         margin-left: 5.37rem;
       }
       .item {
@@ -14,7 +14,7 @@
           .enlace {
             border-bottom: 1px solid #ffffff;
             font-weight: bolder;
-            padding-bottom: .5rem;
+            padding-bottom: 0.5rem;
           }
         }
         .enlace {
