@@ -6,83 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Jean Carlos Piguave Alvarado - piguavejc@gmail.com" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" href="./img/devchallenges.png" type="image/png">
+    <link rel="shortcut icon" href="./img/devchallenges.png" type="image/png" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <title>Interior Consultant</title>
   </head>
   <body>
     <main class="contenedor">
-      <header class="encabezado">
-        <div>
-          <h3>this interior</h3>
-          <span class="material-icons" id="abrir_menu">menu</span>
+
+      <header class="barra">
+
+        <div class="encabezado">
+          <h3 class="encabezado_titulo">this interior</h3>
+          <span class="material-icons" id="encabezado_icono_menu">menu</span>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="">home</a>
+
+        <nav class="navegacion_escritorio">
+          <ul class="lista">
+            <li class="item">
+              <a href="" class="enlace">home</a>
             </li>
-            <li>
-              <a href="">collection</a>
+            <li class="item">
+              <a href="" class="enlace">collection</a>
             </li>
-            <li>
-              <a href="">about</a>
+            <li class="item">
+              <a href="" class="enlace">about</a>
             </li>
-            <li>
-              <a href="">contact</a>
+            <li class="item">
+              <a href="" class="enlace">contact</a>
             </li>
           </ul>
         </nav>
+
       </header>
-      <div class="tarjeta">
+
+      <div class="contenido">
+
         <section class="bienvenido">
-          <h3>modern interior</h3>
-          <p>
+          <h3 class="bienvenido_titulo">modern interior</h3>
+          <p class="bienvenido_parrafo">
             al full-services residential & commercial interior desin and staging company offering professional organizing &
             eco-services
           </p>
-          <a href="#">read more <span class="material-icons">arrow_right_alt</span> </a>
+          <a class="bienvenido_enlace" href="#">read more <span class="material-icons bienvenido_enlace_icono">arrow_right_alt</span> </a>
         </section>
-        <section class="contenido">
+
+        <section class="tarjeta">
+          
           <figure class="portada">
-            <img src="./img/photo1.png" alt="" />
+            <img class="portada_imagen" src="./img/photo1.png" alt="" />
           </figure>
-          <section class="descripcion">
-            <figure class="imagen_descripcion">
-              <div>
-                <img src="./img/photo2.png" alt="" />
+
+          <section class="informacion">
+
+            <figure class="informacion_figura">
+             
+              <div class="figura">
+                <img class="figura_imagen" src="./img/photo2.png" alt="" />
               </div>
-              <figcaption>
-                <h3>aliza webber</h3>
-                <span>interior desinger</span>
+
+              <figcaption class="descripcion">
+                <h3 class="descripcion_titulo">aliza webber</h3>
+                <span class="descripcion_subtitulo">interior desinger</span>
               </figcaption>
+           
             </figure>
-            <div>
-              <h2>designed in 2020 by aliza webber</h2>
-            </div>
+
+            <h2 class="informacion_subtitulo">designed in 2020 by aliza webber</h2>
+          
           </section>
         </section>
+
       </div>
-      <footer>create by <span>piguavejc</span> - <a href="https://devchallenges.io/">devChallenges.io</a></footer>
-      <nav class="menu_movil" id="contenedor_menu">
+
+      <nav class="menu_movil" id="menu_movil">
+        
         <div class="cerrar">
-          <span class="material-icons" id="cerrar_menu">clear</span>
+          <span class="material-icons cerrar_icono" id="cerrar_menu">clear</span>
         </div>
-        <ul>
-          <li>
-            <a href="">home</a>
+
+        <ul class="lista">
+          <li class="item">
+            <a href="" class="enlace">home</a>
           </li>
-          <li>
-            <a href="">collection</a>
+          <li class="item">
+            <a href="" class="enlace">collection</a>
           </li>
-          <li>
-            <a href="">about</a>
+          <li class="item">
+            <a href="" class="enlace">about</a>
           </li>
-          <li>
-            <a href="">contact</a>
+          <li class="item">
+            <a href="" class="enlace">contact</a>
           </li>
         </ul>
+
       </nav>
+
+      <footer class="pie_pagina">
+
+        <p class="pie_pagina_parrafo">
+          create by
+          <a class="pie_pagina_enlace" href="https://devchallenges.io/portfolio/jean-carlos-19">piguavejc</a>
+          -
+          <a class="pie_pagina_enlace" href="https://devchallenges.io/">devChallenges.io</a>
+        </p>
+
+      </footer>
+      
     </main>
     <script src="./App.js"></script>
   </body>

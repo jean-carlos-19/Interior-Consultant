@@ -1,0 +1,23 @@
+.pie_pagina {
+  width: 100%;
+  @include displa_flex(row, center, center);
+  .pie_pagina_parrafo {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--color_pie_pagina_parrafo);
+  }
+  .pie_pagina_enlace {
+    color: var(--color_pie_pagina_parrafo);
+    font-weight: bolder;
+    font-style: italic;
+  }
+}
+@media screen and (min-width: 37.5em) {
+  .pie_pagina {
+    height: auto;
+  }
+}

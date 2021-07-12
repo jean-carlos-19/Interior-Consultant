@@ -1,0 +1,13 @@
+.contenido {
+  width: 100%;
+  & > .bienvenido + .tarjeta {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .contenido {
+    margin-top: 177px;
+    @include displa_flex(row, space-between, center);
+  }
+}

@@ -1,0 +1,32 @@
+.navegacion_escritorio {
+  display: none;
+}
+@media screen and (min-width: 50em) {
+  .navegacion_escritorio {
+    display: block;
+    .lista {
+      @include displa_flex(row, space-between, center);
+      & > .item + .item{
+        margin-left: 5.37rem;
+      }
+      .item {
+        &:first-child {
+          .enlace {
+            border-bottom: 1px solid #ffffff;
+            font-weight: bolder;
+            padding-bottom: .5rem;
+          }
+        }
+        .enlace {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.12rem;
+          line-height: 1.37rem;
+          color: #ffffff;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
