@@ -1,7 +1,7 @@
 .navegacion_escritorio {
   display: none;
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 50rem) {
   .navegacion_escritorio {
     display: block;
     .lista {
@@ -11,19 +11,19 @@
       }
       .item {
         &:first-child {
-          .enlace {
-            border-bottom: 1px solid #ffffff;
+          .item_enlace {
+            border-bottom: 1px solid var(--color_item_enlace);
             font-weight: bolder;
             padding-bottom: 0.5rem;
           }
         }
-        .enlace {
+        .item_enlace {
           font-family: Montserrat;
           font-style: normal;
           font-weight: 500;
           font-size: 1.12rem;
           line-height: 1.37rem;
-          color: #ffffff;
+          color: var(--color_item_enlace);
           text-transform: capitalize;
         }
       }

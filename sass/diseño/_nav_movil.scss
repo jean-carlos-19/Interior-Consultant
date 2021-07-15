@@ -9,7 +9,7 @@
   opacity: 0;
   transition-duration: 1s;
   transition-property: all;
-  background-color: var(--color_fondo);
+  background-color: var(--color_fondo_menu_movil);
   &.abre {
     opacity: 1;
     z-index: 1;
@@ -18,7 +18,7 @@
   .cerrar {
     @include displa_flex(row, flex-end, center);
     .cerrar_icono {
-      color: #ffffff;
+      color: var(--color_item_enlace);
       cursor: pointer;
       font-size: 1.32rem;
     }
@@ -31,19 +31,19 @@
     }
     .item {
       &:first-child {
-        .enlace {
-          font-weight: bolder;
-          border-bottom: 3px solid #ffffff;
+        .item_enlace {
           padding-bottom: 0.5rem;
+          font-weight: bolder;
+          border-bottom: 3px solid var(--color_item_enlace);
         }
       }
-      .enlace {
-        font-family: Montserrat;
+      .item_enlace {
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
         font-size: 1.12rem;
-        line-height: 1.37rem;
-        color: #ffffff;
         text-transform: capitalize;
+        line-height: 1.37rem;
+        color: var(--color_item_enlace);
       }
     }
   }

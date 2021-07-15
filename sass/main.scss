@@ -4,10 +4,12 @@
 
 @import "base/tipografia", "base/normalizar", "base/base", "base/animaciones";
 
-@import "diseño/barra", "diseño/pie_pagina", "diseño/contenido";
+@import "diseño/nav_escritorio", "diseño/nav_movil", "diseño/barra",
+  "diseño/contenido", "diseño/tarjeta", "diseño/pie_pagina";
 
-@import "componentes/encabezado", "componentes/nav_escritorio", "componentes/nav_movil", "componentes/bienvenido",
-  "componentes/tarjeta", "componentes/portada", "componentes/informacion", "componentes/figura", "componentes/descripcion";
+@import "componentes/encabezado", "componentes/bienvenido",
+  "componentes/portada", "componentes/informacion", "componentes/figura",
+  "componentes/descripcion";
 
 @import "paginas/home";
 
