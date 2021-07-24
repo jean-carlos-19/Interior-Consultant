@@ -2,11 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 :root {
-  --color_pie_pagina_parrafo: #a9a9a9;
-  --color_fondo_menu_movil: #181719;
-  --color_item_enlace: #ffffff;
-  --color_icono_menu: #f2f2f2;
-  --color_descripcion_subtitulo: #828282;
+  --color_primario: #ffffff;
+  --color_secundario_oscruro: #181719;
+  --color_secundario_gris: #828282;
 }
 
 :root {
@@ -21,13 +19,9 @@
   box-sizing: inherit;
 }
 
-body {
-  background-color: var(--color_fondo);
-}
-
 a {
   text-decoration: none;
-  color: black;
+  color: var(--color_secundario_oscruro);
 }
 
 ul {
@@ -39,7 +33,7 @@ img {
 }
 
 body {
-  background-color: var(--color_fondo_menu_movil);
+  background-color: var(--color_secundario_oscruro);
 }
 
 @keyframes apareceSitio {
@@ -78,18 +72,9 @@ body {
     margin-left: 5.37rem;
   }
   .navegacion_escritorio .lista .item:first-child .item_enlace {
-    border-bottom: 1px solid var(--color_item_enlace);
-    font-weight: bolder;
     padding-bottom: 0.5rem;
-  }
-  .navegacion_escritorio .lista .item .item_enlace {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.12rem;
-    line-height: 1.37rem;
-    color: var(--color_item_enlace);
-    text-transform: capitalize;
+    font-weight: bolder;
+    border-bottom: 1px solid var(--color_primario);
   }
 }
 
@@ -97,6 +82,7 @@ body {
   padding: 1.37rem 1.24rem;
   width: 100%;
   height: 100vh;
+  background-color: var(--color_secundario_oscruro);
   position: fixed;
   z-index: -1;
   top: 0;
@@ -104,7 +90,6 @@ body {
   opacity: 0;
   transition-duration: 1s;
   transition-property: all;
-  background-color: var(--color_fondo_menu_movil);
 }
 .menu_movil.abre {
   opacity: 1;
@@ -115,11 +100,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
-.menu_movil .cerrar .cerrar_icono {
-  color: var(--color_item_enlace);
-  cursor: pointer;
-  font-size: 1.32rem;
 }
 .menu_movil .lista {
   height: calc(100vh - ((0.75rem * 2) + 1.32rem));
@@ -134,15 +114,7 @@ body {
 .menu_movil .lista .item:first-child .item_enlace {
   padding-bottom: 0.5rem;
   font-weight: bolder;
-  border-bottom: 3px solid var(--color_item_enlace);
-}
-.menu_movil .lista .item .item_enlace {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-size: 1.12rem;
-  text-transform: capitalize;
-  line-height: 1.37rem;
-  color: var(--color_item_enlace);
+  border-bottom: 3px solid var(--color_primario);
 }
 
 .barra {
@@ -198,40 +170,65 @@ body {
   justify-content: center;
   align-items: center;
 }
-.pie_pagina .pie_pagina_parrafo {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.87rem;
-  line-height: 1.06rem;
-  text-align: center;
-  color: var(--color_pie_pagina_parrafo);
-}
 .pie_pagina .pie_pagina_enlace {
-  color: var(--color_pie_pagina_parrafo);
   font-weight: bolder;
   font-style: italic;
+  font-size: inherit;
+  text-transform: inherit;
 }
 
-.encabezado .encabezado_titulo {
-  padding: 0.5rem 0.56rem 0.43rem;
+.titulo {
   font-family: "Crimson Pro", serif;
   font-style: normal;
   font-weight: 200;
   font-size: 0.87rem;
   line-height: 1rem;
   text-transform: uppercase;
-  color: var(--color_item_enlace);
-  border: 1px solid var(--color_item_enlace);
+  color: var(--color_primario);
 }
 
-.encabezado #encabezado_icono_menu {
-  color: var(--color_icono_menu);
+.subtitulo {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 35.2 0.19rem;
+  text-transform: capitalize;
+  color: var(--color_primario);
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.87rem;
+  line-height: 1.06rem;
+  text-align: left;
+  color: var(--color_primario);
+}
+
+.enlace {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.12rem;
+  line-height: 1.37rem;
+  text-transform: capitalize;
+  color: var(--color_primario);
+}
+
+.icono {
+  color: var(--color_primario);
   cursor: pointer;
+  font-size: 1.32rem;
+}
+
+.encabezado .encabezado_titulo {
+  padding: 0.5rem 0.56rem 0.43rem;
+  border: 1px solid var(--color_primario);
 }
 
 @media screen and (min-width: 50rem) {
-  #encabezado_icono_menu {
+  .encabezado .encabezado_icono {
     display: none;
   }
 }
@@ -249,30 +246,21 @@ body {
 }
 .bienvenido .bienvenido_titulo {
   font-family: "Lora", serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 2.25rem;
   line-height: 2.875rem;
-  color: var(--color_item_enlace);
   text-transform: capitalize;
 }
 .bienvenido .bienvenido_parrafo {
-  width: 68.87%;
-  font-family: "Montserrat", sans-serif;
+  flex-basis: 68.87%;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.87rem;
-  line-height: 1.06rem;
-  color: var(--color_item_enlace);
 }
 .bienvenido .bienvenido_enlace {
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  color: var(--color_item_enlace);
-  text-transform: capitalize;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -318,14 +306,6 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
-.informacion .informacion_subtitulo {
-  color: var(--color_item_enlace);
-  font-family: "Lora", serif;
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 35.2 0.19rem;
-  text-transform: capitalize;
-}
 
 @media screen and (min-width: 50rem) {
   .informacion {
@@ -360,14 +340,13 @@ body {
 .descripcion .descripcion_titulo {
   font-size: 0.75rem;
   line-height: 0.914375rem;
-  color: var(--color_item_enlace);
   text-transform: uppercase;
 }
 .descripcion .descripcion_subtitulo {
   font-weight: 500;
   font-size: 0.625rem;
   line-height: 0.75rem;
-  color: var(--color_descripcion_subtitulo);
+  color: var(--color_secundario_gris);
 }
 
 @media screen and (min-width: 37.5rem) {
@@ -385,8 +364,7 @@ body {
 }
 
 .home {
-  width: 100%;
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 1.18rem 0.75rem;
   animation: apareceSitio 0.8s ease-in 0s;

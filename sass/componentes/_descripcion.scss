@@ -12,14 +12,13 @@
   .descripcion_titulo {
     font-size: 0.75rem;
     line-height: 0.914375rem;
-    color: var(--color_item_enlace);
     text-transform: uppercase;
   }
   .descripcion_subtitulo {
     font-weight: 500;
     font-size: 0.625rem;
     line-height: 0.75rem;
-    color: var(--color_descripcion_subtitulo);
+    color: var(--color_secundario_gris);
   }
 }
 @media screen and(min-width:37.5rem) {

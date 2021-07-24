@@ -12,14 +12,6 @@
   .informacion_figura {
     @include displa_flex(row, flex-start, center);
   }
-  .informacion_subtitulo {
-    color: var(--color_item_enlace);
-    font-family: "Lora", serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 35.2.19rem;
-    text-transform: capitalize;
-  }
 }
 @media screen and (min-width: 50rem) {
   .informacion {

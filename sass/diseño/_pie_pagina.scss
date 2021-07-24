@@ -1,17 +1,9 @@
 .pie_pagina {
   @include displa_flex(row, center, center);
-  .pie_pagina_parrafo {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-    text-align: center;
-    color: var(--color_pie_pagina_parrafo);
-  }
   .pie_pagina_enlace {
-    color: var(--color_pie_pagina_parrafo);
     font-weight: bolder;
     font-style: italic;
+    font-size: inherit;
+    text-transform: inherit;
   }
 }

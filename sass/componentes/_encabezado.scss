@@ -1,22 +1,13 @@
 .encabezado {
   .encabezado_titulo {
     padding: 0.5rem 0.56rem 0.43rem;
-    font-family: "Crimson Pro", serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 0.87rem;
-    line-height: 1rem;
-    text-transform: uppercase;
-    color: var(--color_item_enlace);
-    border: 1px solid var(--color_item_enlace);
-  }
-  #encabezado_icono_menu {
-    color: var(--color_icono_menu);
-    cursor: pointer;
+    border: 1px solid var(--color_primario);
   }
 }
 @media screen and (min-width: 50rem) {
-  #encabezado_icono_menu {
-    display: none;
+  .encabezado {
+    .encabezado_icono {
+      display: none;
+    }
   }
 }

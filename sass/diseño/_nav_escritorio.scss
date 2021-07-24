@@ -12,19 +12,10 @@
       .item {
         &:first-child {
           .item_enlace {
-            border-bottom: 1px solid var(--color_item_enlace);
-            font-weight: bolder;
             padding-bottom: 0.5rem;
+            font-weight: bolder;
+            border-bottom: 1px solid var(--color_primario);
           }
-        }
-        .item_enlace {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 1.12rem;
-          line-height: 1.37rem;
-          color: var(--color_item_enlace);
-          text-transform: capitalize;
         }
       }
     }

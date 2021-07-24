@@ -7,30 +7,21 @@
   }
   .bienvenido_titulo {
     font-family: "Lora", serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 2.25rem;
     line-height: 2.875rem;
-    color: var(--color_item_enlace);
     text-transform: capitalize;
   }
   .bienvenido_parrafo {
-    width: 68.87%;
-    font-family: "Montserrat", sans-serif;
+    flex-basis: 68.87%;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.87rem;
-    line-height: 1.06rem;
-    color: var(--color_item_enlace);
   }
   .bienvenido_enlace {
-    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 0.875rem;
     line-height: 1.0625rem;
-    color: var(--color_item_enlace);
-    text-transform: capitalize;
     @include displa_flex(row, center, center);
   }
   .bienvenido_enlace_icono {

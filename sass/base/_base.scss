@@ -1,9 +1,6 @@
-body {
-  background-color: var(--color_fondo);
-}
 a {
   text-decoration: none;
-  color: black;
+  color: var(--color_secundario_oscruro);
 }
 ul {
   list-style: none;
@@ -12,5 +9,5 @@ img {
   max-width: 100%;
 }
 body {
-  background-color: var(--color_fondo_menu_movil);
+  background-color: var(--color_secundario_oscruro);
 }
