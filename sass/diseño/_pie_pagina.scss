@@ -1,9 +1,14 @@
 .pie_pagina {
   @include displa_flex(row, center, center);
-  .pie_pagina_enlace {
-    font-weight: bolder;
-    font-style: italic;
-    font-size: inherit;
-    text-transform: inherit;
+  .pie_pagina_parrafo{
+    text-align: center;
+    .pie_pagina_enlace {
+      font-weight: bolder;
+      font-style: italic;
+      font-size: inherit;
+      text-transform: inherit;
+      color: inherit;
+    }
   }
+
 }

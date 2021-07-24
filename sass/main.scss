@@ -2,15 +2,15 @@
 
 //@import "proveedores/";
 
-@import "base/tipografia", "base/normalizar", "base/base", "base/animaciones";
+@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base",
+  "base/ayudantes";
 
 @import "diseño/nav_escritorio", "diseño/nav_movil", "diseño/barra",
   "diseño/contenido", "diseño/tarjeta", "diseño/pie_pagina";
 
-@import "componentes/titulo", "componentes/subtitulo", "componentes/parrafo",
-  "componentes/enlace", "componentes/icono", "componentes/encabezado",
-  "componentes/bienvenido", "componentes/portada", "componentes/informacion",
-  "componentes/figura", "componentes/descripcion";
+@import "componentes/encabezado", "componentes/bienvenido",
+  "componentes/portada", "componentes/informacion", "componentes/figura",
+  "componentes/descripcion";
 
 @import "paginas/home";
 

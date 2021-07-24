@@ -1,0 +1,42 @@
+.titulo {
+  font-family: "Crimson Pro", serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.87rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: var(--color_primario);
+}
+.subtitulo {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 35.2.19rem;
+  text-transform: capitalize;
+  color: var(--color_primario);
+}
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.87rem;
+  line-height: 1.06rem;
+  text-align: left;
+  color: var(--color_primario);
+}
+
+.enlace {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.12rem;
+  line-height: 1.37rem;
+  text-transform: capitalize;
+  color: var(--color_primario);
+}
+
+.icono {
+  color: var(--color_primario);
+  cursor: pointer;
+  font-size: 1.32rem;
+}

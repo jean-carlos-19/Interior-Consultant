@@ -5,7 +5,7 @@
   }
 }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 80rem) {
   .contenido {
     margin-top: 7.31rem;
     @include displa_flex(row, space-between, center);

@@ -21,7 +21,7 @@
     color: var(--color_secundario_gris);
   }
 }
-@media screen and(min-width:37.5rem) {
+@media screen and(min-width:80rem) {
   .descripcion {
     & > * + * {
       margin-top: 0.5rem;
