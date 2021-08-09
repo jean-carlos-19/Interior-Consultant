@@ -1,15 +1,15 @@
 .contenido {
   width: 100%;
-  margin-top: 2.37rem; /* 38/16 */
+  margin-top: 4.88vh; /* (37.92/776)*100 */
   & > .bienvenido + .tarjeta {
-    margin-top: 1.75rem; /* 28/16 */
+    margin-top: 3.60vh; /* (28/776)*100 */
   }
 }
 
 @media screen and (min-width: 60rem) {
   .contenido {
-    margin-top: 7.31rem;
-    height: 54.33vmax;
+    margin-top: 7.31rem;/* (116.96/1080)*100  */
+    height: 54.33vmax;/* (782.35/1440)*100 */
     @include displa_flex(row, center, center);
   }
 }

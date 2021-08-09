@@ -1,22 +1,14 @@
 .lista {
   & > .item + .item {
-    margin-top: 2rem;
+    margin-top: 4.12vh;/*(32/776)*100*/
   }
   .item {
     &:first-child {
       .item_enlace {
         font-weight: bolder;
         border-bottom: 3px solid #ffffff;
-        padding-bottom: 0.5rem;
+        padding-bottom: 2.13%;/* (8/375)*100 */
       }
-    }
-    .item_enlace {
-      font-family: Montserrat;
-      font-style: normal;
-      font-size: 1.12rem;
-      line-height: 1.37rem;
-      color: #ffffff;
-      text-transform: capitalize;
     }
   }
 }

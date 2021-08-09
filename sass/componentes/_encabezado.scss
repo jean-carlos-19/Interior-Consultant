@@ -2,22 +2,22 @@
   @include displa_flex(row, space-between, center);
 
   .columna {
-    flex-basis: 95%;
+    flex-basis: 95%; /* (356.25/375)*100 */
 
     .titulo_5_encabezado {
       display: inline-block;
-      padding: 0.5rem 0.56rem 0.43rem;
+      padding: 1.03% 2.04%; /*  (8/776)*100 , (9/375)*100  */
       border: 1px solid var(--color_primario);
     }
   }
 
   .encabezado_icono {
-    flex-basis: 5%;
+    flex-basis: 5%; /* (18.75/375)*100  */
   }
 }
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 60rem) {
   .encabezado {
-    flex-basis: 20%;
+    flex-basis: 20%;/*(288/1440)*100 */
 
     .icono_encabezado {
       display: none;

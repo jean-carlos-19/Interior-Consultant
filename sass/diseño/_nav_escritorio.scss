@@ -1,9 +1,9 @@
 .navegacion_escritorio {
   display: none;
 }
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 60rem) {
   .navegacion_escritorio {
-    flex-basis: 40%;
+    flex-basis: 40%;/* (576/1440)*100 */
     display: block;
   }
 }
