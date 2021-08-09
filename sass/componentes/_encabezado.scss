@@ -1,12 +1,25 @@
 .encabezado {
-  .encabezado_titulo {
-    padding: 0.5rem 0.56rem 0.43rem;
-    border: 1px solid var(--color_primario);
+  @include displa_flex(row, space-between, center);
+
+  .columna {
+    flex-basis: 95%;
+
+    .titulo_5_encabezado {
+      display: inline-block;
+      padding: 0.5rem 0.56rem 0.43rem;
+      border: 1px solid var(--color_primario);
+    }
+  }
+
+  .encabezado_icono {
+    flex-basis: 5%;
   }
 }
 @media screen and (min-width: 80rem) {
   .encabezado {
-    .encabezado_icono {
+    flex-basis: 20%;
+
+    .icono_encabezado {
       display: none;
     }
   }

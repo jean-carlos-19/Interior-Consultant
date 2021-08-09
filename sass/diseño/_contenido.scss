@@ -1,13 +1,15 @@
 .contenido {
   width: 100%;
+  margin-top: 2.37rem; /* 38/16 */
   & > .bienvenido + .tarjeta {
-    margin-top: 1rem;
+    margin-top: 1.75rem; /* 28/16 */
   }
 }
 
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 60rem) {
   .contenido {
     margin-top: 7.31rem;
-    @include displa_flex(row, space-between, center);
+    height: 54.33vmax;
+    @include displa_flex(row, center, center);
   }
 }

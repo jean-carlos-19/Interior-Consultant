@@ -1,5 +1,5 @@
 .menu_movil {
-  padding: 1.37rem 1.24rem;
+  padding: var(--relleno_movil_home);
   width: 100%;
   height: 100vh;
   background-color: var(--color_secundario_oscruro);
@@ -34,8 +34,8 @@
     }
   }
 }
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 60rem) {
   .menu_movil {
-    padding: 1.87rem 4.75rem;
+    padding: var(--relleno_escritorio_home);
   }
 }

@@ -1,38 +1,15 @@
 .descripcion {
   width: 85%;
-  margin-left: 0.8rem;
+  margin-left: 0.8rem; /*12.8/16*/
+
   & > * + * {
-    margin-top: 0.36rem;
-  }
-  .descripcion_titulo,
-  span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-  }
-  .descripcion_titulo {
-    font-size: 0.75rem;
-    line-height: 0.914375rem;
-    text-transform: uppercase;
-  }
-  .descripcion_subtitulo {
-    font-weight: 500;
-    font-size: 0.625rem;
-    line-height: 0.75rem;
-    color: var(--color_secundario_gris);
+    margin-top: 0.36rem; /* 5.85/16 */
   }
 }
-@media screen and(min-width:80rem) {
+@media screen and(min-width:60rem) {
   .descripcion {
     & > * + * {
       margin-top: 0.5rem;
-    }
-    .descripcion_titulo {
-      font-size: 0.875rem;
-      line-height: 1.0625rem;
-    }
-    .descripcion_subtitulo {
-      font-size: 0.75rem;
-      line-height: 0.9375rem;
     }
   }
 }

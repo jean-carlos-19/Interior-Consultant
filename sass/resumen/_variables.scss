@@ -1,5 +1,16 @@
 :root {
+  //colores
   --color_primario: #ffffff;
   --color_secundario_oscruro: #181719;
-  --color_secundario_gris: #828282;
+  --color_secundario_gris_300: #828282;
+  --color_secundario_gris_200: #00000040;
+
+  //fuentes de tamano
+
+  //rellenos
+  --relleno_movil_home: 1.18rem 0.75rem; /* 19/16 , 12/16 */
+  --relleno_escritorio_home: 2.87rem 4.75rem;
+
+  //anchos
+  --ancho_maximo_home: 90rem;
 }

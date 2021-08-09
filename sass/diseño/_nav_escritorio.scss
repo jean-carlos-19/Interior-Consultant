@@ -3,6 +3,7 @@
 }
 @media screen and (min-width: 80rem) {
   .navegacion_escritorio {
+    flex-basis: 40%;
     display: block;
     .lista {
       @include displa_flex(row, space-between, center);

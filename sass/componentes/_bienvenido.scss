@@ -1,49 +1,35 @@
 .bienvenido {
-  margin-top: 2.37rem;
   flex-basis: 35%;
-  @include displa_flex(column, space-between, flex-start);
+
   & > * + * {
-    margin-top: 1.56rem;
+    margin-top: 1.56rem; /* 25/16 */
   }
-  .bienvenido_titulo {
-    font-family: "Lora", serif;
-    font-weight: 500;
-    font-size: 2.25rem;
-    line-height: 2.875rem;
-    text-transform: capitalize;
+
+  .parrafo_bienvenido {
+    width: 68.87%;
+
+    .enlace_parrafo_bienvenido {
+      font-family: inherit;
+      font-weight: bold;
+      line-height: inherit;
+      font-size: inherit;
+      color: inherit;
+
+      @include displa_flex(row, flex-start, center);
+    }
   }
-  .bienvenido_parrafo {
-    flex-basis: 68.87%;
-    font-style: normal;
-    font-weight: normal;
-  }
-  .bienvenido_enlace {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.875rem;
-    line-height: 1.0625rem;
-    @include displa_flex(row, center, center);
-  }
-  .bienvenido_enlace_icono {
+
+  .enlace_icono_bienvenido {
     margin-left: 0.93rem;
   }
 }
-@media screen and(min-width:80rem) {
+@media screen and(min-width:60rem) {
   .bienvenido {
+    margin-top: 0;
+    flex-basis: 31.48%; /* (409.96/(1440-138))*100 */
+
     & > * + * {
       margin-top: 2.5rem;
-    }
-    .bienvenido_titulo {
-      font-size: 3rem;
-      line-height: 3.81rem;
-    }
-    .bienvenido_parrafo {
-      font-size: 1.5rem;
-      line-height: 1.81rem;
-    }
-    .bienvenido_enlace {
-      font-size: 1.5rem;
-      line-height: 1.8125rem;
     }
   }
 }

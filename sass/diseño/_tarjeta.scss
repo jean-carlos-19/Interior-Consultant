@@ -1,9 +1,23 @@
 .tarjeta {
+  position: relative;
   width: 100%;
   margin-top: 1.56rem;
+
+  .columna {
+    width: inherit;
+    position: relative;
+    top: -4.12rem;
+    @include displa_flex(column, flex-start, center);
+  }
 }
-@media screen and(min-width:80rem) {
+@media screen and(min-width:60rem) {
   .tarjeta {
-    flex-basis: 65%;
+    margin-top: 0;
+    margin-left: 9.79%; /* (138/1404)*100 */
+    flex-basis: 63.06%; /*(821.11/ (1440 - 138))*100 */
+
+    .columna {
+      top: -5.12rem;
+    }
   }
 }

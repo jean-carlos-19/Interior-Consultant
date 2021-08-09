@@ -1,0 +1,7 @@
+.cabecera {
+}
+@media screen and (min-width: 80rem) {
+  .cabecera {
+    @include displa_flex(row, space-between, center);
+  }
+}
