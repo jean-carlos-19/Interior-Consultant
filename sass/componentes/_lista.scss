@@ -1,6 +1,4 @@
 .lista {
-  height: calc(100vh - ((0.75rem * 2) + 1.32rem));
-  @include displa_flex(column, center, center);
   & > .item + .item {
     margin-top: 2rem;
   }

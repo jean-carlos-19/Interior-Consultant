@@ -1,14 +1,14 @@
 .titulo {
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 2.25rem; /* 36/16 */
+  font-size: var(--tamano_titulo_movil);
   line-height: 2.875rem; /* 46/16 */
   text-transform: capitalize;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 3rem; /* 48/16 */
+      font-size: var(--tamano_titulo_escritorio);
       line-height: 3.81rem; /* 61/16 */
     }
   }
@@ -17,14 +17,14 @@
   font-family: "Lora", serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.125rem; /* (18/16) */
+  font-size: var(--tamano_titulo_2_movil);
   line-height: 35.2.19rem;
   text-transform: capitalize;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 1.5rem; /* 24/16 */
+      font-size: var(--tamano_titulo_2_escritorio);
       line-height: 1.93rem; /* 31/16 */
     }
   }
@@ -33,15 +33,15 @@
   font-family: "Crimson Pro", serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 0.87rem;
-  line-height: 1rem;
+  font-size: var(--tamano_titulo_5_movil);
+  line-height: 1rem; /*16/16*/
   text-transform: uppercase;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 0.87rem; /* 14/16 */
-      line-height: 1rem; /* 16/16 */
+      //font-size: 0.87rem; /* 14/16 */
+      //line-height: 1rem; /* 16/16 */
     }
   }
 }
@@ -49,14 +49,14 @@
   font-family: "Montserrat" sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.75rem;
-  line-height: 0.93rem;
+  font-size: var(--tamano_titulo_6_movil);
+  line-height: 0.93rem; /*15/16*/
   text-transform: capitalize;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 0.87rem; /* 14/16 */
+      font-size: var(--tamano_titulo_6_escritorio);
       line-height: 1.06rem; /* 17/16 */
     }
   }
@@ -65,14 +65,14 @@
   font-family: "Montserrat" sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.75rem;
-  line-height: 0.93rem;
+  font-size: var(--tamano_normal_movil);
+  line-height: 0.93rem; /*15/16*/
   text-transform: none;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 0.87rem; /* 14/16 */
+      font-size: var(--tamano_normal_escritorio);
       line-height: 1.06rem; /* 17/16 */
     }
   }
@@ -81,14 +81,14 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.87rem;
+  font-size: var(--tamano_parrafo_movil);
   line-height: 1.06rem;
   text-align: left;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 1.5rem; /* 24/16 */
+      font-size: var(--tamano_parrafo_escritorio);
       line-height: 1.81rem; /* 29/16 */
     }
   }
@@ -97,14 +97,14 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.62rem;
+  font-size: var(--tamano_parrafo_pequeño_movil);
   line-height: 0.75rem;
   text-transform: capitalize;
   color: var(--color_secundario_gris_300);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 0.75rem; /* 12/16 */
+      font-size: var(--tamano_parrafo_pequeño_escritorio);
       line-height: 0.93rem; /* 15/16 */
     }
   }
@@ -113,20 +113,20 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.12rem; /* 18/16 */
+  font-size: var(--tamano_enlace_movil);
   line-height: 1.37rem; /* 22/16 */
   text-transform: capitalize;
   color: var(--color_primario);
 
   @media screen and(min-width:37.5rem) {
     & {
-      font-size: 1.12rem; /* 18/16 */
+      font-size: var(--tamano_enlace_escritorio);
       line-height: 1.37rem; /* 22/16 */
     }
   }
 }
 .icono {
-  font-size: 2rem;
+  font-size: var(--tamano_icono);
   cursor: pointer;
   color: var(--color_primario);
 }

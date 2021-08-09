@@ -1,4 +1,4 @@
-.menu_movil {
+.navegacion_movil {
   padding: var(--relleno_movil_home);
   width: 100%;
   height: 100vh;
@@ -17,25 +17,9 @@
   .cerrar {
     @include displa_flex(row, flex-end, center);
   }
-  .lista {
-    height: calc(100vh - ((0.75rem * 2) + 1.32rem));
-    @include displa_flex(column, center, center);
-    & > .item + .item {
-      margin-top: 2rem;
-    }
-    .item {
-      &:first-child {
-        .item_enlace {
-          padding-bottom: 0.5rem;
-          font-weight: bolder;
-          border-bottom: 3px solid var(--color_primario);
-        }
-      }
-    }
-  }
 }
 @media screen and (min-width: 60rem) {
-  .menu_movil {
+  .navegacion_movil {
     padding: var(--relleno_escritorio_home);
   }
 }
