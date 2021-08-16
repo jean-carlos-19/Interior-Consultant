@@ -1,7 +1,7 @@
 .lista_escritorio {
   @include displa_flex(row, space-between, center);
   & > .item + .item {
-    margin-left: 5.96%;/* (85.92/1440)*100 */
+    margin-left: 5.96%; /* (85.92/1440)*100 */
     margin-top: 0;
   }
 }

@@ -1,12 +1,12 @@
 .bienvenido {
-  flex-basis: 35%;/* (131.25/375)*100 */
+  flex-basis: 35%; /* (131.25/375)*100 */
 
   & > * + * {
-    margin-top:3.22vh; /* (25/776)*100 */
+    margin-top: 1.56rem; /* (25/16) */
   }
 
   .parrafo_bienvenido {
-    width: 68.87%;/* (258.26/375)*10*/
+    width: 68.87%; /* (258.26/375)*100*/
 
     .enlace_parrafo_bienvenido {
       font-family: inherit;
@@ -20,7 +20,7 @@
   }
 
   .enlace_icono_bienvenido {
-    margin-left: 3.96%;/*(14.88/375)*100*/
+    margin-left: 3.96%; /*(14.88/375)*100*/
   }
 }
 @media screen and(min-width:60rem) {
@@ -29,7 +29,7 @@
     flex-basis: 31.48%; /* (409.96/(1440-138))*100 */
 
     & > * + * {
-      margin-top: 3.70vh;/* (40/1080)*100 */
+      margin-top: 2.5rem; /* (40/16) */
     }
   }
 }

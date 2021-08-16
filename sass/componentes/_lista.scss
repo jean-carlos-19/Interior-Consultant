@@ -1,13 +1,13 @@
 .lista {
   & > .item + .item {
-    margin-top: 4.12vh;/*(32/776)*100*/
+    margin-top: 3rem; /*(32/16)*/
   }
   .item {
     &:first-child {
       .item_enlace {
         font-weight: bolder;
         border-bottom: 3px solid #ffffff;
-        padding-bottom: 2.13%;/* (8/375)*100 */
+        padding-bottom: 0.5rem; /* (8/16) */
       }
     }
   }

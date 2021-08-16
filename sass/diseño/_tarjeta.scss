@@ -1,12 +1,12 @@
 .tarjeta {
   position: relative;
   width: 100%;
-  margin-top: 3.21vh;/* (24.96/776)*100 */
+  margin-top: 1.56rem; /* (24.96/16) */
 
   .columna {
     width: inherit;
     position: relative;
-    top: -8.49vh;/*(65.92/776)*100*/
+    top: -4.12rem; /*(65.92/16) */
     @include displa_flex(column, flex-start, center);
   }
 }
@@ -17,7 +17,7 @@
     flex-basis: 63.06%; /*(821.11/ (1440 - 138))*100 */
 
     .columna {
-      top: -7.58vh;/*(81.92/1080)*100*/
+      top: -5.12rem; /*(81.92/16) */
     }
   }
 }

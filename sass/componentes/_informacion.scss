@@ -7,7 +7,7 @@
   animation: escala_caja 1s 0s ease-in infinite alternate;
 
   & > * + * {
-    margin-top: 2.82vh; /* (21.9/776)*100 */
+    margin-top: 1.36rem; /* (21.9/16) */
   }
 
   .figura_informacion {
@@ -22,7 +22,7 @@
     align-self: flex-end;
 
     & > .figura_informacion + .subtitulo_informacion {
-      margin-top: 2.77vh;/* (29.62/1080)*100 */
+      margin-top: 1.85rem; /* (29.62/16) */
     }
   }
 }

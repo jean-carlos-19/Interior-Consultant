@@ -3,13 +3,13 @@
   margin-left: 1.64%; /* (12.8/776)*100*/
 
   & > * + * {
-    margin-top: 7.53vh; /* (5.85/776)*100 */
+    margin-top: 0.36rem; /* (5.85/16) */
   }
 }
 @media screen and(min-width:60rem) {
   .descripcion {
     & > * + * {
-      margin-top: .74vh;/*(8/1080)*100*/
+      margin-top: 0.5rem; /*(8/16)*/
     }
   }
 }
