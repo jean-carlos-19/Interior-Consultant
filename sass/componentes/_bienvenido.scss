@@ -1,26 +1,29 @@
 .bienvenido {
-  flex-basis: 35%; /* (131.25/375)*100 */
+
 
   & > * + * {
     margin-top: 1.56rem; /* (25/16) */
   }
 
-  .parrafo_bienvenido {
+  .parrafo_bienvenido{
+    width: 66.66%; /* (250/375)*100 */
+  }
+  .titulo_5_bienvenido {
     width: 68.87%; /* (258.26/375)*100*/
-
-    .enlace_parrafo_bienvenido {
+    text-transform: none;
+    .enlace_titulo_5_bienvenido {
       font-family: inherit;
       font-weight: bold;
-      line-height: inherit;
       font-size: inherit;
+      text-transform: inherit;
+      line-height: inherit;
       color: inherit;
-
       @include displa_flex(row, flex-start, center);
     }
-  }
-
-  .enlace_icono_bienvenido {
-    margin-left: 3.96%; /*(14.88/375)*100*/
+    .enlace_icono_bienvenido {
+      font-size: inherit;
+      margin-left: 3.96%; /*(14.88/375)*100*/
+    }
   }
 }
 @media screen and(min-width:60rem) {

@@ -5,6 +5,11 @@
   & > * + * {
     margin-top: 0.36rem; /* (5.85/16) */
   }
+
+  .parrafo_descripcion {
+    color: var(--color_secundario_gris_300);
+    text-transform: capitalize;
+  }
 }
 @media screen and(min-width:60rem) {
   .descripcion {

@@ -1,13 +1,6 @@
 .home {
   max-width: var(--ancho_maximo_home);
   margin: 0 auto;
-  padding: var(--relleno_movil_home);
+  padding: var(--relleno_home);
   animation: apareceSitio 1s ease-in 0s;
-}
-
-//escritorio
-@media screen and (min-width: 60rem) {
-  .home {
-    padding: var(--relleno_escritorio_home);
-  }
 }

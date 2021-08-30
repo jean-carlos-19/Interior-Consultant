@@ -1,4 +1,25 @@
 :root {
+  /*
+      movil:(x=375,y=776)
+      escritorio:(x=1440,y=1080)
+    */
+
+  --tamano_icono: 2rem;
+
+  @include colores();
+
+  @include titulo();
+  @include titulo_2();
+  @include titulo_5();
+  @include titulo_6();
+
+  @include normal();
+  @include normal_pequeno();
+
+
+  @include rellenos();
+  @include anchos();
+
   box-sizing: border-box;
 }
 *,

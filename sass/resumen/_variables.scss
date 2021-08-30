@@ -1,57 +1,42 @@
-:root {
-  /*
-    movil:(x=375,y=776)
-    escritorio:(x=1440,y=1080)
-  */
+//TITULO 1
+$tamano_titulo_movil:2.25rem; /* 36/16 */
+$interlineado_titulo_movil:2.87rem; /* 46/16 */
+$tamano_titulo_escritorio:3rem; /* 48/16 */
+$interlineado_titulo_escritorio:3.81rem; /* 61/16 */
 
-  //colores
-  --color_primario: #ffffff;
-  --color_secundario_oscruro: #181719;
-  --color_secundario_gris_300: #828282;
-  --color_secundario_gris_200: #00000040;
 
-  //fuentes de tamano
+//TITULO 2
+$tamano_titulo_2_movil:1.12rem; /* (18/16) */
+$interlineado_titulo_2_movil:2.19rem; /*35.04/16*/
+$tamano_titulo_2_escritorio:1.5rem; /* 24/16 */
+$interlineado_titulo_2_escritorio:1.93rem; /* 31/16 */
 
-  --tamano_titulo_movil: 2.25rem; /* 36/16 */
-  --tamano_titulo_2_movil: 1.125rem; /* (18/16) */
-  --tamano_titulo_5_movil: 0.87rem; /*14/16*/
-  --tamano_titulo_6_movil: 0.75rem; /*14/16*/
-  --tamano_normal_movil: 0.75rem; /*12/16*/
-  --tamano_parrafo_movil: 0.87rem; /*14/16*/
-  --tamano_parrafo_pequeño_movil: 0.62rem; /*10/16*/
-  --tamano_enlace_movil: 1.12rem; /* 18/16 */
 
-  --tamano_titulo_escritorio: 3rem; /* 48/16 */
-  --tamano_titulo_2_escritorio: 1.5rem; /* 24/16 */
-  --tamano_titulo_6_escritorio: 0.87rem; /* 14/16 */
-  --tamano_normal_escritorio: 0.87rem; /* 14/16 */
-  --tamano_parrafo_escritorio: 1.5rem; /* 24/16 */
-  --tamano_parrafo_pequeño_escritorio: 0.75rem; /* 12/16 */
-  --tamano_enlace_escritorio: 1.12rem; /* 18/16 */
+//TITULO 5
+$tamano_titulo_5_movil:0.87rem; /*14/16*/
+$interlineado_titulo_5_movil:1rem; /*16/16*/
+$tamano_titulo_5_escritorio:1.12rem; /*18/16*/
+$interlineado_titulo_5_escritorio:1.31rem; /*21/16*/
 
-  --tamano_icono: 2rem; /*32/16*/
+//TITULO 6
+$tamano_titulo_6_movil:0.75rem; /*12/16*/
+$interlineado_titulo_6_movil:0.93rem; /*15/16*/
+$tamano_titulo_6_escritorio:0.87rem; /* 14/16 */
+$interlineado_titulo_6_escritorio:1.06rem; /* 17/16 */
 
-  //interlineados
-  --interlineados_titulo_movil: 2.875rem; /* 46/16 */
-  --interlineados_titulo_2_movil: 2.19rem; /*35.04/16*/
-  --interlineados_titulo_2_movil: 1rem; /*16/16*/
-  --interlineados_titulo_6_novil: 0.93rem; /*15/16*/
-  --interlineado_normal_movil: 0.93rem; /*15/16*/
-  --interlineado_parrafo_movil: 0.06rem; /*0.96/16*/
-  --interlineado_parrafo_pequeño_movil: 0.75rem; /*12/16*/
-  --interlineado_enlace_movil: 1.37rem; /* 22/16 */
 
-  --interlineados_titulo_escritorio: 3.81rem; /* 61/16 */
-  --interlineados_titulo_2_escriotrio: 1.93rem; /* 31/16 */
-  --interlineados_titulo_6_escritorio: 1.06rem; /* 17/16 */
-  --interlineado_normal_escritorio: 1.06rem; /* 17/16 */
-  --interlineado_parrafo_escritorio: 1.81rem; /* 29/16 */
-  --interlineado_parrafo_pequeño_escritorio: 0.93rem; /* 15/16 */
+//NORMAL
+$tamano_normal_movil:0.87rem; /*14/16*/
+$interlineado_normal_movil:1.06rem; /*17.07/16*/
+$tamano_normal_escritorio:1.5rem; /* 24/16 */
+$interlineado_normal_escritorio:1.81rem; /* 29/16 */
 
-  //rellenos
-  --relleno_movil_home: 1.18rem 0.75rem; /* (19/16) , (12/16) */
-  --relleno_escritorio_home: 2.62rem 4.5rem; /* (42/16) , (72/16) */
 
-  //anchos
-  --ancho_maximo_home: 90rem; /*1440/16*/
-}
+//NORMAL EXTRA PEQUENA
+$tamano_normal_pequeno_movil:0.62rem; /*10/16*/
+$interlineado_normal_pequeno_movil:0.75rem; /*12/16*/
+$tamano_normal_pequeno_escritorio:0.75rem; /* 12/16 */
+$interlineado_normal_pequeno_escritorio:0.93rem; /* 15/16 */
+
+
+
