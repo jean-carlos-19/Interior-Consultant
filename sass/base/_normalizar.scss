@@ -8,14 +8,13 @@
 
   @include colores();
 
-  @include titulo();
+  @include titulo_1();
   @include titulo_2();
   @include titulo_5();
   @include titulo_6();
 
   @include normal();
   @include normal_pequeno();
-
 
   @include rellenos();
   @include anchos();

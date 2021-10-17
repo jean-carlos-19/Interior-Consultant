@@ -20,36 +20,36 @@
   --color_secundario_gris_200: #00000040;
 }
 
-@mixin titulo {
-  --tamano_titulo: #{$tamano_titulo_movil};
-  --interlineado_titulo: #{$interlineado_titulo_movil};
+@mixin titulo_1 {
+  --tamano_titulo_1: #{$tamano_titulo_1_movil};
+  --interlineado_titulo_1: #{$interlineado_titulo_1_movil};
   @media screen and(min-width:37.5rem) {
-    --tamano_titulo: #{$tamano_titulo_escritorio};
-    --interlineado_titulo:#{interlineado_titulo_escritorio}; 
+    --tamano_titulo_1: #{$tamano_titulo_1_escritorio};
+    --interlineado_titulo_1: #{interlineado_titulo_1_escritorio};
   }
 }
 
 @mixin titulo_2 {
-  --tamano_titulo_2:#{$tamano_titulo_2_movil}; 
-  --interlineado_titulo_2:#{$interlineado_titulo_2_movil};  
+  --tamano_titulo_2: #{$tamano_titulo_2_movil};
+  --interlineado_titulo_2: #{$interlineado_titulo_2_movil};
   @media screen and(min-width:37.5rem) {
-    --tamano_titulo_2:#{$tamano_titulo_2_escritorio}; 
-    --interlineado_titulo_2_escriotrio:#{$interlineado_titulo_2_escritorio};  
+    --tamano_titulo_2: #{$tamano_titulo_2_escritorio};
+    --interlineado_titulo_2_escriotrio: #{$interlineado_titulo_2_escritorio};
   }
 }
 
 @mixin titulo_5 {
   --tamano_titulo_5: #{$tamano_titulo_5_movil};
-  --interlineado_titulo_5:#{$interlineado_titulo_5_movil}; 
+  --interlineado_titulo_5: #{$interlineado_titulo_5_movil};
   @media screen and(min-width:37.5rem) {
     --tamano_titulo_5: #{$tamano_titulo_5_escritorio};
-    --interlineado_titulo_5:#{$interlineado_titulo_5_escritorio}; 
+    --interlineado_titulo_5: #{$interlineado_titulo_5_escritorio};
   }
 }
 
 @mixin titulo_6 {
   --tamano_titulo_6: #{$tamano_titulo_6_movil};
-  --interlineado_titulo_6_novil:#{$interlineado_titulo_6_movil}; 
+  --interlineado_titulo_6_novil: #{$interlineado_titulo_6_movil};
   @media screen and(min-width:37.5rem) {
     --tamano_titulo_6: #{$tamano_titulo_6_escritorio};
     --interlineado_titulo_6: #{$interlineado_titulo_6_escritorio};
@@ -62,12 +62,12 @@
   @media screen and(min-width:37.5rem) {
     --tamano_normal: #{$tamano_normal_escritorio};
     --interlineado_normal: #{$interlineado_normal_escritorio};
- }
+  }
 }
 
 @mixin normal_pequeno {
   --tamano_normal_pequeno: #{$tamano_normal_pequeno_movil};
-  --interlineado_normal_pequeno:#{$interlineado_normal_pequeno_movil};
+  --interlineado_normal_pequeno: #{$interlineado_normal_pequeno_movil};
 
   @media screen and(min-width:37.5rem) {
     --tamano_normal_pequeno: #{$tamano_normal_pequeno_escritorio};

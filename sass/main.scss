@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-@import "resumen/variables", "resumen/mixin", "resumen/funciones";
+@import "resumen/variables", "resumen/mixin";
 
 //@import "proveedores/";
 
 @import "base/fuentes", "base/animaciones", "base/normalizar", "base/base",
-  "base/ayudantes/app", "base/elementos";
+  "base/ayudantes/app";
 
 @import "diseño/nav_escritorio", "diseño/nav_movil", "diseño/cabecera",
   "diseño/contenido", "diseño/tarjeta", "diseño/pie_pagina";

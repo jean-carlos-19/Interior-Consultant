@@ -11,3 +11,26 @@ img {
 body {
   background-color: var(--color_secundario_oscruro);
 }
+.titulo {
+  font-family: "Lora", serif;
+  font-style: normal;
+}
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  color: var(--color_primario);
+}
+.enlace {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: var(--color_primario);
+}
+.icono {
+  font-size: var(--tamano_icono);
+  color: var(--color_primario);
+  cursor: pointer;
+}

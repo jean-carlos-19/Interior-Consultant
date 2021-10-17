@@ -1,5 +1,4 @@
-.titulo {
-  font-family: "Lora", serif;
+.titulo_1 {
   font-weight: 500;
   font-size: var(--tamano_titulo);
   line-height: var(--interlineado_titulo);
@@ -7,8 +6,6 @@
   color: var(--color_primario);
 }
 .titulo_2 {
-  font-family: "Lora", serif;
-  font-style: normal;
   font-weight: bold;
   font-size: var(--tamano_titulo_2);
   line-height: var(--interlineado_titulo_2);
@@ -16,8 +13,6 @@
   color: var(--color_primario);
 }
 .titulo_5 {
-  font-family: "Crimson Pro", serif;
-  font-style: normal;
   font-weight: 200;
   font-size: var(--tamano_titulo_5);
   line-height: var(--interlineado_titulo_2);
@@ -25,8 +20,6 @@
   color: var(--color_primario);
 }
 .titulo_6 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: var(--tamano_titulo_6);
   line-height: var(--interlineado_titulo_6_novil);

@@ -53,18 +53,18 @@
   --color_secundario_oscruro: #181719;
   --color_secundario_gris_300: #828282;
   --color_secundario_gris_200: #00000040;
-  --tamano_titulo: 2.25rem;
-  --interlineado_titulo: 2.87rem;
-  --tamano_titulo_2:1.12rem;
-  --interlineado_titulo_2:2.19rem;
+  --tamano_titulo_1: 2.25rem;
+  --interlineado_titulo_1: 2.87rem;
+  --tamano_titulo_2: 1.12rem;
+  --interlineado_titulo_2: 2.19rem;
   --tamano_titulo_5: 0.87rem;
-  --interlineado_titulo_5:1rem;
+  --interlineado_titulo_5: 1rem;
   --tamano_titulo_6: 0.75rem;
-  --interlineado_titulo_6_novil:0.93rem;
+  --interlineado_titulo_6_novil: 0.93rem;
   --tamano_normal: 0.87rem;
   --interlineado_normal: 1.06rem;
   --tamano_normal_pequeno: 0.62rem;
-  --interlineado_normal_pequeno:0.75rem;
+  --interlineado_normal_pequeno: 0.75rem;
   --relleno_home: 1.18rem 0.75rem;
   /* (19/16) , (12/16) */
   --ancho_maximo_home: 90rem;
@@ -72,16 +72,16 @@
   box-sizing: border-box; }
   @media screen and (min-width: 37.5rem) {
     :root {
-      --tamano_titulo: 3rem;
-      --interlineado_titulo:interlineado_titulo_escritorio; } }
+      --tamano_titulo_1: 3rem;
+      --interlineado_titulo_1: interlineado_titulo_1_escritorio; } }
   @media screen and (min-width: 37.5rem) {
     :root {
-      --tamano_titulo_2:1.5rem;
-      --interlineado_titulo_2_escriotrio:1.93rem; } }
+      --tamano_titulo_2: 1.5rem;
+      --interlineado_titulo_2_escriotrio: 1.93rem; } }
   @media screen and (min-width: 37.5rem) {
     :root {
       --tamano_titulo_5: 1.12rem;
-      --interlineado_titulo_5:1.31rem; } }
+      --interlineado_titulo_5: 1.31rem; } }
   @media screen and (min-width: 37.5rem) {
     :root {
       --tamano_titulo_6: 0.87rem;
@@ -119,48 +119,9 @@ img {
 body {
   background-color: var(--color_secundario_oscruro); }
 
-.tamano_normal {
-  font-size: var(--tamano_normal);
-  line-height: var(--interlineado_normal); }
-
-.tamano_normal_pequeno {
-  font-size: var(--tamano_normal_pequeno);
-  line-height: var(--interlineado_normal_pequeno); }
-
 .titulo {
   font-family: "Lora", serif;
-  font-weight: 500;
-  font-size: var(--tamano_titulo);
-  line-height: var(--interlineado_titulo);
-  text-transform: capitalize;
-  color: var(--color_primario); }
-
-.titulo_2 {
-  font-family: "Lora", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: var(--tamano_titulo_2);
-  line-height: var(--interlineado_titulo_2);
-  text-transform: capitalize;
-  color: var(--color_primario); }
-
-.titulo_5 {
-  font-family: "Crimson Pro", serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: var(--tamano_titulo_5);
-  line-height: var(--interlineado_titulo_2);
-  text-transform: capitalize;
-  color: var(--color_primario); }
-
-.titulo_6 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: var(--tamano_titulo_6);
-  line-height: var(--interlineado_titulo_6_novil);
-  text-transform: capitalize;
-  color: var(--color_primario); }
+  font-style: normal; }
 
 .parrafo {
   font-family: "Montserrat", sans-serif;
@@ -180,6 +141,42 @@ body {
   font-size: var(--tamano_icono);
   color: var(--color_primario);
   cursor: pointer; }
+
+.normal {
+  font-size: var(--tamano_normal);
+  line-height: var(--interlineado_normal); }
+
+.pequeno {
+  font-size: var(--tamano_normal_pequeno);
+  line-height: var(--interlineado_normal_pequeno); }
+
+.titulo_1 {
+  font-weight: 500;
+  font-size: var(--tamano_titulo);
+  line-height: var(--interlineado_titulo);
+  text-transform: capitalize;
+  color: var(--color_primario); }
+
+.titulo_2 {
+  font-weight: bold;
+  font-size: var(--tamano_titulo_2);
+  line-height: var(--interlineado_titulo_2);
+  text-transform: capitalize;
+  color: var(--color_primario); }
+
+.titulo_5 {
+  font-weight: 200;
+  font-size: var(--tamano_titulo_5);
+  line-height: var(--interlineado_titulo_2);
+  text-transform: capitalize;
+  color: var(--color_primario); }
+
+.titulo_6 {
+  font-weight: 500;
+  font-size: var(--tamano_titulo_6);
+  line-height: var(--interlineado_titulo_6_novil);
+  text-transform: capitalize;
+  color: var(--color_primario); }
 
 .navegacion_escritorio {
   display: none; }
@@ -402,7 +399,7 @@ body {
   margin-top: 3rem;
   /*(32/16)*/ }
 
-.lista .item:first-child .item_enlace {
+.lista .item:first-child .titulo_2_item {
   font-weight: bolder;
   border-bottom: 3px solid #ffffff;
   padding-bottom: 0.5rem;
