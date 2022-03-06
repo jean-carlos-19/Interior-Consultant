@@ -9,7 +9,7 @@ _Reto:  Crear una página siguiendo el diseño propuesto por [DevChallenges](hht
 
 ### Previsualización :eye:
 
-![imagen]()
+![imagen](https://github.com/jean-carlos-19/Interior-Consultant/blob/master/captura/escritorio.png)
 
 ### Demo :eyes:
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-interior-consultant.onrender.com/)_
